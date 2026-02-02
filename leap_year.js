@@ -11,7 +11,8 @@ console.log(leapYear);
 
 /*
 1. those year that is not divisible by 100, if the year is divisible by 4: then it will be a leap year. 
-2. 
+2. if the year is divisible by 400, then it is a leap year 
+3. else it is not a leap year 
 */
 function isLeapYear2(year) {
     if (year % 100 !== 0 && year % 4 === 0) {
